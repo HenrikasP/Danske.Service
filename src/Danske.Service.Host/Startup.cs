@@ -59,7 +59,6 @@ namespace Danske.Service.Host
                 .UseMvcWithDefaultRoute()
                 .UseSwaggerUI(options => { options.SwaggerEndpoint("/swagger/v1/swagger.json", "Danske API V1"); })
                 .UseResponseCompression();
-            ;
         }
     }
 }
